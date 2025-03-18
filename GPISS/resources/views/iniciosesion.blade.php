@@ -132,8 +132,7 @@
 
             </div>
             <div class="image-section">
-                <img src="ruta-a-tu-imagen.png">
-                
+                <img src="{{ asset('img/polii.png') }}">
             </div>
         </div>
         <div class="footer-text">
