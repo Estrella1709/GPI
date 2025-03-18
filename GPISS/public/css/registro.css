@@ -1,0 +1,89 @@
+body {
+    background-color: #0c1c3c;  /* Fondo azul oscuro */
+    font-family: Arial, sans-serif;
+}
+
+.register-box {
+    width: 1300px;
+    height: 650px;
+    background-color: #f0f0f0;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-container {
+    flex: 1;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: #000;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.radio-group {
+    margin: 10px 0;
+}
+
+.radio-group label {
+    margin-right: 20px;
+    font-weight: normal;
+}
+
+button {
+    background-color: #001f4d;  /* Azul fuerte */
+    color: #fff;
+    border: none;
+    padding: 12px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    display: block;
+    margin-top: 20px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+.regresar {
+    display: block;
+    margin-top: 20px;
+    color: gray;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.image-container {
+    flex: 1;
+    background-color: #f0f0f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img {
+    max-width: 100%;
+    max-height: 100%;
+}

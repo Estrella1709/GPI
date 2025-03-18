@@ -9,3 +9,11 @@ Route::get('/', function () {
 Route::get('/login', function(){
     return view('iniciosesion');
 });
+
+Route::get('/registro', function(){
+    return view('registro1');
+});
+
+Route::get('/registroAlumnos', function(){
+    return view('registro2');
+});
