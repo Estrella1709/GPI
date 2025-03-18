@@ -21,7 +21,7 @@
                 </form>
                 <div class="links">
                     <a href="#">¿Se te olvidó tu contraseña?</a>
-                    <a href="#">¿No tienes cuenta? Regístrate</a>
+                    <a href="{{ route('registro') }}">¿No tienes cuenta? Regístrate</a>
                 </div>
 
             </div>

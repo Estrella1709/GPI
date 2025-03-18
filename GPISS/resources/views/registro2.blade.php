@@ -23,7 +23,7 @@
 
             <button type="submit" class="btn-continuar">Continuar</button>
         </form>
-        <a href="#" class="regresar">Regresar</a>
+        <a href="{{ route('registro') }}" class="regresar">Regresar</a>
     </div>
     <div class="image-container">
         <img src="{{ asset('img/polii.png') }}" alt="Mascota UPQ">

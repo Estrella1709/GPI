@@ -28,7 +28,7 @@
 
                 <button type="submit">Continuar</button>
             </form>
-            <a href="#" class="regresar">Regresar</a>
+            <a href="{{ route('login') }}" class="regresar">Regresar</a>
         </div>
 
         <div class="image-container">

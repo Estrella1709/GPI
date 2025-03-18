@@ -8,12 +8,12 @@ Route::get('/', function () {
 
 Route::get('/login', function(){
     return view('iniciosesion');
-});
+})->name('login');
 
 Route::get('/registro', function(){
     return view('registro1');
-});
+})->name('registro');
 
 Route::get('/registroAlumnos', function(){
     return view('registro2');
-});
+})->name('registroAlumnos');
