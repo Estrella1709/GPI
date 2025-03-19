@@ -1,0 +1,172 @@
+/* Estructura principal */
+.content {
+    display: flex;
+    flex: 1;
+    padding: 20px;
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    background-color: #c5d8fc; /* Fondo principal */
+    border-radius: 10px;
+    color: white;
+    height: 100vh; 
+}
+
+.left-panel {
+    flex: 2;
+    margin-right: 10px;
+    overflow-y: auto;
+}
+
+.right-panel {
+    flex: 2;
+    margin-left: 10px;
+    overflow: hidden;
+}
+
+/* Estilos para el contenedor de proyectos */
+.proyectos-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.proyectos-title {
+    margin: 0;
+    color: #002379; /* Azul fuerte */
+}
+
+/* Elementos de Proyecto */
+.proyecto-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.proyecto-info p {
+    margin: 0;
+    font-weight: bold;
+    color: #06132E;
+}
+
+.proyecto-info span {
+    color: #757575;
+    font-size: 14px;
+}
+
+/* Detalles de Proyectos */
+.detalles-proyectos {
+    background-color: white;
+    border: 1px solid #ddd;
+    margin-top: 1rem;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.details-info {
+    margin-right: 120px;
+}
+
+/* Botones */
+button {
+    background-color: #002379; /* Azul fuerte */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #06132E; /* Fondo oscuro */
+}
+
+/* Botón específico para borrar */
+.borrar-proyecto {
+    background-color: #002379; 
+}
+
+.borrar-proyecto:hover {
+    background-color: #0235b8; 
+}
+
+/* Formulario de proyectos */
+form input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form input:hover {
+    border: 1px solid #002379;
+}
+
+form input:focus {
+    border-color: #002379;
+    outline: none;
+}
+
+/* Estilo para la barra de búsqueda */
+.search-bar {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#searchInput {
+    width: 50%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid #06132E;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+#searchInput:focus {
+    border-color: #0235b8;
+    box-shadow: 0 0 8px rgba(15, 155, 255, 0.5);
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.revisar-proyecto {
+    background-color: #002379;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.revisar-proyecto:hover {
+    background-color: #0235b8;
+}

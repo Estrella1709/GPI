@@ -1,5 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
 @extends('layouts.header1')
 @section('contenido')
 <style>
