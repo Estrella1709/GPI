@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <link rel="stylesheet" href="{{ asset('css/comentario.css') }}">
-@extends('layouts.header1')
+@extends('layouts.header3')
 @section('contenido')
 <body>
 <div class="contenedor">
@@ -20,7 +20,11 @@
                 <button class="btn-enviar">Enviar comentario</button>
             </div>
         </div>
+        <a href="{{ route('revision') }}">
         <button class="btn-cancelar" href=>Cancelar</button>
+        </a>
+
+        
     </div>
 
 </body>

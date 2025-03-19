@@ -17,7 +17,7 @@
                     <input type="email" name="email" id="email" required>
                     <label for="password">Contraseña</label>
                     <input type="password" name="password" id="password" required>
-                    <button type="submit">Acceso</button>
+                    <a href="{{ route('proyectos.index') }}"><button type="button">Acceso</button></a>
                 </form>
                 <div class="links">
                     <a href="#">¿Se te olvidó tu contraseña?</a>

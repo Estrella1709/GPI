@@ -10,7 +10,7 @@
 <body>
     <header class="container">
         
-        <h1><img id="logo" src="img/CAlogo.png"> Gestión de Proyectos Integradores</h1>
+        <h1><img id="logo" src="{{ asset('img/logo1.png') }}"> Gestión de Proyectos Integradores</h1>
         <section>
             <a href="noticias"><h2 id="notis">Noticias</h2></a>
             <a href="PI"><h2 id="pi">Proyecto Integrador</h2></a>
