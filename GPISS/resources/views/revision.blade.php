@@ -9,13 +9,19 @@
     <div class="info-section">
       <label><strong>Titulo</strong></label>
       <input type="text" value="StockOn" disabled />
-      <button class="comment-btn">Agregar comentario</button>
+      <a href="{{ route('comentario') }}">
+    <button type="button" class="comment-btn">Agregar comentario</button>
+</a>
+
     </div>
 
     <div class="info-section">
       <label><strong>Lider</strong></label>
       <input type="text" value="Estrella Aguillón Torrijos" disabled />
-      <button class="comment-btn">Agregar comentario</button>
+      <a href="{{ route('comentario') }}">
+    <button type="button" class="comment-btn">Agregar comentario</button>
+</a>
+
     </div>
 
     <div class="info-section">
@@ -27,19 +33,28 @@ Valentina Velázquez Domínguez
 Selene Beatriz Andrade Montenegro
 Luisa Fernanda Venturini Salazar
       </textarea>
-      <button class="comment-btn">Agregar comentario</button>
+      <a href="{{ route('comentario') }}">
+    <button type="button" class="comment-btn">Agregar comentario</button>
+</a>
+
     </div>
 
     <div class="info-section">
       <label><strong>Descripción</strong></label>
       <textarea disabled>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua...</textarea>
-      <button class="comment-btn">Agregar comentario</button>
+      <a href="{{ route('comentario') }}">
+    <button type="button" class="comment-btn">Agregar comentario</button>
+</a>
+
     </div>
 
     <div class="info-section">
       <label><strong>Objetivo General</strong></label>
       <textarea disabled>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</textarea>
-      <button class="comment-btn">Agregar comentario</button>
+      <a href="{{ route('comentario') }}">
+    <button type="button" class="comment-btn">Agregar comentario</button>
+</a>
+
     </div>
 
     <div class="rating-section">

@@ -10,9 +10,9 @@
 <body>
     <header class="container">
         
-        <h1><img id="logo" src="img/CAlogo.png"> Gestión de Proyectos Integradores</h1>
+        <h1><img id="logo" src="{{ asset('img/logo1.png') }}"> Gestión de Proyectos Integradores</h1>
         <section>
-            <a href="home"><h2 id="home">Acceder</h2></a>
+        <a href="{{ route('login') }}"><h2 id="home">Acceder</h2></a>
         </section>
     </header>
     <main>
