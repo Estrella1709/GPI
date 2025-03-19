@@ -17,3 +17,7 @@ Route::get('/registro', function(){
 Route::get('/registroAlumnos', function(){
     return view('registro2');
 })->name('registroAlumnos');
+
+Route::get('/comentario', function(){
+    return view('comentario');
+})->name('comentario');
