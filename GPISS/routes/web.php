@@ -1,18 +1,20 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProyectoController;
+
+Route::get('/proyectos', [ProyectoController::class, 'index'])->name('proyectos.index');
+
 
 Route::get('/', function () {
     return view('home');
 });
 
-Route::get('/busquedapi', function () {
-    return view('busquedapi');
-});
 
-Route::get('/revision', function(){
+Route::get('/revision', function () {
     return view('revision');
-});
+})->name('revision');
+
 
 Route::get('/login', function(){
     return view('iniciosesion');
