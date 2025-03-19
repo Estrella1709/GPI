@@ -1,7 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProjectController;
 
+// Mantener las rutas existentes
 Route::get('/', function () {
     return view('home');
 });
@@ -29,3 +31,8 @@ Route::get('/registroAlumnos', function(){
 Route::get('/comentario', function(){
     return view('comentario');
 })->name('comentario');
+
+// Agregar tus nuevas rutas para ProjectController
+Route::get('/proyecto', [ProjectController::class, 'index'])->name('proyecto.index');
+Route::get('/proyecto/registro', [ProjectController::class, 'registro'])->name('proyecto.registro');
+
