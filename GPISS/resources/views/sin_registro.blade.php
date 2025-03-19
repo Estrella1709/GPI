@@ -1,6 +1,6 @@
-@extends('layouts.app')
+@extends('layouts.header2')
 
-@section('content')
+@section('contenido')
 <div class="container text-center">
     <h2>¡Ups! En este momento no has registrado tu proyecto integrador</h2>
     <p>Por favor, asegúrate de que tu proyecto sea registrado antes de la fecha límite.</p>

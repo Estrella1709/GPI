@@ -1,6 +1,8 @@
-@extends('layouts.app')
+@extends('layouts.header2')
 
-@section('content')
+@section('contenido')
+
+<br><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 <div class="container">
     <h2>Registro de Proyecto</h2>
     <form action="#" method="POST">
@@ -24,4 +26,5 @@
         <button type="submit" class="btn btn-primary">Registrar Proyecto</button>
     </form>
 </div>
+<br>
 @endsection
