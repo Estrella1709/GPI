@@ -8,7 +8,7 @@ body{
 }
 
 /*Aqui empieza header*/
-.container{
+.container-header{
     background-color: #06132E;
     color: rgb(20, 22, 21);
     padding: 1rem;
