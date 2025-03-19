@@ -8,12 +8,12 @@
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
-    <header class="container">
+    <header class="container-header">
         
         <h1><img id="logo" src="{{ asset('img/logo1.png') }}"> Gestión de Proyectos Integradores</h1>
         <section>
             <a href="noticias"><h2 id="notis">Noticias</h2></a>
-            <a href="PI"><h2 id="pi">Proyecto Integrador</h2></a>
+            <a href="{{ route('proyecto.index') }}"><h2 id="pi">Proyecto Integrador</h2></a>
             <a href="entregas"><h2 id="entregas">Entregas</h2></a>
         </section>
     </header>
